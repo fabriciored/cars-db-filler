@@ -1,5 +1,5 @@
 import Car from "./entities/car.ts";
-import { getImage } from "./getImage.ts";
+import { getImage } from "./functions/getImage.ts";
 
 
 const automakerAndCarPair: Array<Array<any>> = [];
