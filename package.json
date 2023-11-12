@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fill:cars": "deno run --allow-net --allow-read --allow-write src/index.ts",
+    "fill:makers": "deno run --allow-net --allow-read --allow-write src/fill-automakers.ts",
+    "dir": "deno run --allow-net --allow-read --allow-write src/generateFs.ts"
   },
   "keywords": [],
   "author": "",
